@@ -1,0 +1,23 @@
+.callout-section{
+  width: 100%;
+  height: inherit;
+  padding: 4em;
+  text-align: center;
+  margin: auto;
+  background-color: $darkGray;
+  color: #ffffff;
+ .callout-box{
+   text-align: center;
+   margin: auto;
+   width: 100%;
+   h3{
+     font-size: 3em;
+     font-weight: 700;
+     margin-bottom: 0.5em;
+   }
+   /*.callout-btn{
+
+   }*/
+ }
+
+}

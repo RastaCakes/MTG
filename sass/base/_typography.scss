@@ -1,0 +1,9 @@
+$default-font: ('Open Sans', sans-serif, 'helvetica');
+$heading-font: ('Lato', sans-serif, 'Lato');
+
+h1, h2, h3 {
+  font-family: $heading-font;
+}
+p {
+  font-family: $default-font;
+}

@@ -1,0 +1,142 @@
+/*
+  .main-carousel {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  .carousel {
+    height: auto;
+    max-height: 80%;
+  }}} */
+.main-carousel {
+  max-height: 70vh;
+  min-height:50vh;
+    width: 100%;
+    background-color: #000000;
+  .carousel {
+  max-height: 70vh;
+  min-height:50vh;
+    width: 100%;
+  .carousel-inner {
+    height: 100%;
+      width: 100%;
+
+    .carousel-item {
+      max-height: 70vh;
+      min-height:50vh;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        img {
+          max-height: 70vh;
+          min-height:50vh;
+          opacity: .7;
+        }
+    }}}
+.carousel-caption {
+  top: 25%;
+  padding-top: 0px;
+  @include breakpoint(small){
+    top:20%;
+  }
+  @include breakpoint(xsmall){
+    top: 10%;
+  }
+  h3{
+   font-size: 3em;
+   font-weight: 700;
+   @include breakpoint(small){
+     font-size: 2em;
+   }
+   @include breakpoint(xsmall){
+     font-size:2em;
+   }
+   }
+  p{
+   font-size: 1.5em;
+   font-family: $default-font;
+   font-weight: 300;
+   @include breakpoint(small){
+     font-size: 1em;
+   }
+   @include breakpoint(xsmall){
+font-size: 1em;
+   }
+}}
+.carousel-indicators{
+  li{
+    height: 1.5em;
+    @include breakpoint(small){
+      height:1em;
+    }
+    @include breakpoint(xsmall){
+      height:.5em;
+    }
+  }
+  li.active{
+    background-color: $main-color;
+}}
+}
+
+
+
+
+
+
+
+
+.testimonial-carousel {
+  max-height: 50vh;
+  min-height:40vh;
+    width: 100%;
+    background-color: none;
+  .carousel {
+  max-height: 50vh;
+  min-height:40vh;
+    width: 100%;
+  .carousel-inner {
+    height: 100%;
+      width: 100%;
+
+    .carousel-item {
+      max-height: 50vh;
+      min-height:40vh;
+        width: 100%;
+        background: none;
+    }}}
+.carousel-caption {
+  top: 25%;
+  padding-top: 0px;
+  @include breakpoint(small){
+    top:20%;
+  }
+  @include breakpoint(xsmall){
+    top: 10%;
+  }
+  h3{
+   font-size: 3em;
+   font-weight: 700;
+   @include breakpoint(small){
+     font-size: 2em;
+   }
+   @include breakpoint(xsmall){
+     font-size:2em;
+   }
+   }
+  p{
+   font-size: 1.5em;
+   font-family: $default-font;
+   font-weight: 300;
+   @include breakpoint(small){
+     font-size: 1em;
+   }
+   @include breakpoint(xsmall){
+font-size: 1em;
+   }
+}}
+.carousel-indicators{
+  li{
+    height: .5em;
+  }
+  li.active{
+    background-color: #ffffff;
+}}
+}

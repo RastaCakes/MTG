@@ -1,0 +1,58 @@
+footer {
+  background-color: #3C3C3C;
+  .footer-container{
+    width: 100%;
+    padding: 2.5vh 0vw;
+    margin: auto;
+    color: #ffffff;
+    text-align: center;
+
+    .footer-item{
+      margin: auto;
+      padding: auto;
+      width: 100%;
+      overflow: hidden;
+      text-align: center;
+      @include breakpoint(small){
+      margin-bottom:5vh;
+    }
+  }
+      .footer-links {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        a {
+          margin: 0;
+          padding: 0;
+            color: #ffffff;
+            text-decoration: none;
+            text-align: center;
+        &:hover {
+          color: $main-color;
+        }
+      }
+      }
+
+    h4{
+      margin: auto;
+      padding: auto;
+      text-align: center;
+      width: 100%;
+      font-size:1em;
+    }
+
+    .footer-logo{
+      max-height: 25vh;
+      height: 8vh;
+      @include breakpoint(small){
+        height: 10vh;
+      }
+      @include breakpoint(xsmall){
+        height: 10vh;
+      }
+    }
+
+
+
+}}
