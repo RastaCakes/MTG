@@ -5,7 +5,7 @@
     width: 100%;
     background-color: #000000;
     overflow: hidden;
-    padding-top: 10vh;
+    padding: 10vh 5vw 0vh 5vw;
     color: #ffffff;
     @include breakpoint(xsmall){
       min-height: 30vh;
@@ -103,6 +103,14 @@
       }
       .tab-content{
         padding-top: 5vh;
+        .tab-pane {
+          margin: auto;
+          width: 100%;
+          padding: 0 5vw;
+          @include breakpoint(medium){
+            padding: 0;
+          }
+        }
         h4{
           font-size: 2em;
         }
