@@ -73,17 +73,16 @@
     }
     .interior-content{
       padding-bottom: 5vh;
+
       .service-description {
         margin: 0;
         width: 100%;
-
         background-color: $main-color;
         h3{
           color: #ffffff;
           padding: 0 10vh 5vh 10vh;
         font-size: 1.5em;
         font-weight: 700;
-
       }
     }
       .nav-tabs .nav-link {
@@ -113,5 +112,30 @@
           font-size: 2em;
         }
       }
+
+
+    }
+
+  }
+
+  .network-page{
+    .interior-content{
+    .service-description{
+    background-color: $main-color;
     }
   }
+}
+  .recycle-page{
+    .interior-content{
+    .service-description{
+    background-color: $second-color;
+    }
+  }
+}
+  .energy-page{
+    .interior-content{
+    .service-description{
+    background-color: #529Ac3;
+    }
+  }
+}
