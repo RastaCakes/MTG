@@ -80,9 +80,12 @@
         background-color: $main-color;
         h3{
           color: #ffffff;
-          padding: 0 10vh 5vh 10vh;
+          padding: 0 10vw 5vh 10vw;
         font-size: 1.5em;
-        font-weight: 700;
+        @include breakpoint(small){
+          padding: 0 0vw 5vh 0vw;
+        }
+
       }
     }
       .nav-tabs .nav-link {
@@ -105,8 +108,11 @@
           width: 100%;
           padding: 0 5vw;
           @include breakpoint(medium){
-            padding: 0;
+            padding: 0 0;
           }
+        }
+        h3 {
+          font-size: 3em;
         }
         h4{
           font-size: 2em;
@@ -129,6 +135,9 @@
     .interior-content{
     .service-description{
     background-color: $second-color;
+    h3{
+    color: #fffb99;
+  }
     }
   }
 }
@@ -142,7 +151,7 @@
 .lifecycle-page{
   .interior-content{
   .service-description{
-  background-color: #772b32;
+  background-color: #5f6ebf;
   }
 }
 }
