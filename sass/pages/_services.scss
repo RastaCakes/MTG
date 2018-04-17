@@ -1,0 +1,50 @@
+.services-head-section{
+.services-head{
+  max-height: 70vh;
+  min-height:50vh;
+    width: 100%;
+    background-color: #000000;
+    overflow: hidden;
+    padding: 10vh 5vw 0vh 5vw;
+    color: #ffffff;
+    @include breakpoint(xsmall){
+      min-height: 30vh;
+    }
+
+  h2{
+    text-align: left;
+    font-size: 4em;
+    z-index: 10;
+    position: inherit;
+    @include breakpoint(medium){
+      font-size: 3em
+    }
+    @include breakpoint(xsmall){
+      font-size: 2em;
+    }
+
+  }
+  p{
+    text-align: center;
+    font-size: 1.5em;
+    z-index: 10;
+    position: inherit;
+
+    @include breakpoint(xsmall){
+      font-size: 1em;
+    }
+  }
+  img{
+    @include aspect-ratio(16, 9);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+  }
+}
+}
