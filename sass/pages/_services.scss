@@ -93,10 +93,13 @@
 
 .services {
 height: auto;
-padding-bottom: 10vh;
+
 .services-item {
+  height: inherit;
   overflow: hidden;
   padding: 10vh 10vw;
+  background-color: #000000;
+  margin-bottom: 5vh;
 h4{
 color: #ffffff;
 text-transform: uppercase;
