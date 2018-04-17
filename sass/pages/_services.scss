@@ -1,14 +1,14 @@
 .services-head-section{
 .services-head{
-  max-height: 70vh;
-  min-height:50vh;
+  max-height: 80vh;
+  min-height:70vh;
     width: 100%;
     background-color: #000000;
     overflow: hidden;
-    padding: 10vh 5vw 0vh 5vw;
+    padding: 30vh 5vw 0vh 5vw;
     color: #ffffff;
     @include breakpoint(xsmall){
-      min-height: 30vh;
+      min-height: 50vh;
     }
 
   h2{
@@ -45,6 +45,7 @@
     left: 0;
     width: 100%;
     opacity: 0.7;
+
   }
 }
 }
