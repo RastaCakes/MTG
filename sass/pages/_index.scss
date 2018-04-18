@@ -42,6 +42,13 @@ height: inherit;
         h2 {
       font-size: 3em;
       text-align: center;
+      a {
+        color: #000000;
+        text-decoration: none;
+        &:hover {
+          color: $main-color;
+        }
+      }
           }
   hr {
     text-align: center;
