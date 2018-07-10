@@ -91,11 +91,10 @@
           color: #000000;
           padding: 0 15vw 5vh 15vw;
         font-size: 1.5em;
-        @include breakpoint(medium){
-          font-size: 1em;
-        }
+
         @include breakpoint(small){
           padding: 0 5vw 5vh 5vw;
+          font-size: 1em;
         }
 
       }
@@ -117,9 +116,13 @@
 
     .service-container{
       padding: 5vh 0vw 10vh 0vw;
+      @include breakpoint(small){
+        padding: 5vh 0vw 5vh 0vw;
+      }
     .service-content{
       padding: 0vh 5vw 0vh 5vw;
       .content-head{
+      padding: 5vh 10vw 5vh 10vw;
   h2{
     font-weight: 700;
     text-align: center;
@@ -135,6 +138,11 @@
   margin: auto;
   padding: auto;
   text-align: center;
+  h3{
+    font-weight: 700;
+    text-align: left;
+    font-size: 3em;
+  }
   h4 {
     text-align: left;
     font-size: 1.5em;
