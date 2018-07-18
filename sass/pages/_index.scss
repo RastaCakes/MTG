@@ -42,19 +42,23 @@ height: inherit;
         h2 {
       font-size: 3em;
       text-align: center;
+      color: $main-color;
       a {
+        font-weight: 700;
         color: #000000;
+        color: $main-color;
         text-decoration: none;
         &:hover {
-          color: $main-color;
+          color: #666666;
         }
       }
           }
   hr {
     text-align: center;
     width: 20%;
-    border-width: 2.5px;
+    border-width: 5px;
     border-color: #000000;
+    border-color: $main-color;
   }
 
   p {
@@ -182,6 +186,7 @@ height: inherit;
     padding: 2em;
     color: #ffffff;
     h2 {
+      font-weight: 700;
   font-size: 3em;
   text-align: center;
       }
@@ -197,7 +202,7 @@ height: inherit;
     hr {
       text-align: center;
       width: 20%;
-      border-width: 2.5px;
+      border-width: 5px;
       border-color: #ffffff;
     }
     }
