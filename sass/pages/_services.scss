@@ -1,7 +1,7 @@
 .services-head-section{
 .services-head{
   max-height: 80vh;
-  min-height:70vh;
+  min-height:50vh;
     width: 100%;
     background-color: #000000;
     overflow: hidden;
@@ -49,6 +49,8 @@
     top: 0;
     left: 0;
     width: 100%;
+    min-height: 50vh;
+    max-height: 125vh;
     opacity: 0.7;
 
   }
