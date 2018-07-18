@@ -9,13 +9,12 @@ footer {
 
     .footer-item{
       margin: auto;
-      padding: auto;
       width: 100%;
       overflow: hidden;
       text-align: center;
-      @include breakpoint(small){
-      margin-bottom:5vh;
-    }
+      @include breakpoint(medium){
+        padding: 5vh 0vw 5vh 0vw;
+      }
   }
       .footer-links {
         margin: 0;
