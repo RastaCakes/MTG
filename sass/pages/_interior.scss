@@ -94,12 +94,10 @@
           color: #000000;
           padding: 0 15vw 5vh 15vw;
         font-size: 1.5em;
-
         @include breakpoint(xsmall){
           padding: 0 5vw 5vh 5vw;
           font-size: 1em;
         }
-
       }
 
       p{
@@ -108,6 +106,7 @@
         color: #000000;
         padding: 0 15vw 5vh 15vw;
       font-size: 1.5em;
+
       @include breakpoint(medium){
         font-size: 1em;
       }
@@ -118,7 +117,7 @@
     }
 
     .service-container{
-      padding: 5vh 0vw 10vh 0vw;
+      padding: 5vh 0vw 0vh 0vw;
       @include breakpoint(small){
         padding: 5vh 0vw 0vh 0vw;
       }
@@ -131,6 +130,7 @@
         @include breakpoint(small){
           height: 30vh;
         }
+
         img{
         min-height: 20vh;
         max-height: 150vh;
@@ -159,7 +159,7 @@
 }
 .content-body{
   width: 100%;
-  margin: 0vh 0vw 5vh 0vw;
+  margin: 0vh 0vw 0vh 0vw;
   padding: auto;
   text-align: center;
   h3{
