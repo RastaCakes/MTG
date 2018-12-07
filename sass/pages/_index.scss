@@ -62,7 +62,8 @@ height: inherit;
   }
 
   p {
-
+    margin: 0vh auto 5vh auto;
+    width: 100%;
     @include breakpoint(medium){
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
